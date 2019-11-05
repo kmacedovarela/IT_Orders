@@ -1,15 +1,28 @@
 [
-  [
-    "name" : "MyTask", 
-    "parameters" : [ 
-        "MyFirstParam" : new StringDataType(), 
-        "MySecondParam" : new StringDataType(), 
-        "MyThirdParam" : new ObjectDataType() 
-    ], 
-    "results" : [ 
-        "Result" : new ObjectDataType("java.util.Map") 
-    ], 
-    "displayName" : "My Task", 
-    "icon" : "" 
-  ]
+        [
+            "name" : "BluePrismWS",
+            "displayName" : "BluePrismWS",
+            "category" : "blueprism-workitem",
+            "description" : "",
+            "defaultHandler" : "mvel: new com.redhat.demo.BluePrismWSWorkItemHandler()",
+            "documentation" : "blueprism-workitem/index.html",
+            "parameters" : [
+                 "Endpoint" : new StringDataType()
+                ,"Mode" : new StringDataType()
+                ,"Parameter" : new StringDataType()
+                ,"Operation" : new StringDataType()
+                ,"Url" : new StringDataType()
+                ,"Namespace" : new StringDataType()
+                ,"Interface" : new StringDataType()
+
+            ],
+            "results" : [
+                "Result" : new StringDataType()
+
+            ],
+            "mavenDependencies" : [],
+            "icon" : "icon.png"
+
+        ]
+
 ]
