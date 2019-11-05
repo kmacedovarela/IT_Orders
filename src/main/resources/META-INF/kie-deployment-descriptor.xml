@@ -33,6 +33,12 @@
             <parameters/>
             <name>Rest</name>
         </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new com.redhat.demo.BluePrismWSWorkItemHandler(ksession,classLoader,"admin","redhat")</identifier>
+            <parameters/>
+            <name>BluePrismWS</name>
+        </work-item-handler>
     </work-item-handlers>
     <environment-entries/>
     <configurations/>
