@@ -20,7 +20,7 @@
                 "Result" : new StringDataType()
 
             ],
-            "mavenDependencies" : [],
+            "mavenDependencies" : [ "org.jbpm.contrib:blueprism-wih:7.23.0.Final-redhat-00003"],
             "icon" : "icon.png"
 
         ]
