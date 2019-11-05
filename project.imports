@@ -4,6 +4,18 @@
       <import>
         <type>java.lang.Number</type>
       </import>
+      <import>
+        <type>blueprism.webservice.preparehardwarespecification.PrepareHardwareSpecification</type>
+      </import>
+      <import>
+        <type>blueprism.webservice.preparehardwarespecification.PrepareHardwareSpecificationResponse</type>
+      </import>
+      <import>
+        <type>blueprism.webservice.shiporder.ShipOrder</type>
+      </import>
+      <import>
+        <type>blueprism.webservice.shiporder.ShipOrderResponse</type>
+      </import>
     </imports>
   </imports>
   <version>1.0</version>
