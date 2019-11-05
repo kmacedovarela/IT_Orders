@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_KoGh8P-GEemhld45uHAjtg" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd http://www.omg.org/spec/DD/20100524/DC DC.xsd http://www.omg.org/spec/DD/20100524/DI DI.xsd " exporter="jBPM Process Modeler" exporterVersion="2.0" targetNamespace="http://www.omg.org/bpmn20">
-  <bpmn2:itemDefinition id="__42C7C066-55F0-4284-B967-6F51D105A092_EndpointInputXItem" structureRef="String"/>
+<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.omg.org/bpmn20" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_au8psP-GEemhld45uHAjtg" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd http://www.omg.org/spec/DD/20100524/DC DC.xsd http://www.omg.org/spec/DD/20100524/DI DI.xsd " exporter="jBPM Process Modeler" exporterVersion="2.0" targetNamespace="http://www.omg.org/bpmn20">
   <bpmn2:itemDefinition id="__42C7C066-55F0-4284-B967-6F51D105A092_InterfaceInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__42C7C066-55F0-4284-B967-6F51D105A092_ModeInputXItem" structureRef="String"/>
   <bpmn2:itemDefinition id="__42C7C066-55F0-4284-B967-6F51D105A092_NamespaceInputXItem" structureRef="String"/>
@@ -33,7 +32,7 @@
       <bpmn2:outgoing>_0FEA6B1D-1419-4136-A912-9CADD17651EC</bpmn2:outgoing>
     </bpmn2:startEvent>
     <bpmn2:task id="_42C7C066-55F0-4284-B967-6F51D105A092" drools:taskName="BluePrismWS" name="Upload Hardware Specification using a Digital Worker">
-      <bpmn2:documentation id="_KoGh8f-GEemhld45uHAjtg"><![CDATA[blueprism-workitem/index.html]]></bpmn2:documentation>
+      <bpmn2:documentation id="_au8psf-GEemhld45uHAjtg"><![CDATA[blueprism-workitem/index.html]]></bpmn2:documentation>
       <bpmn2:extensionElements>
         <drools:metaData name="elementname">
           <drools:metaValue><![CDATA[Upload Hardware Specification using a Digital Worker]]></drools:metaValue>
@@ -41,8 +40,7 @@
       </bpmn2:extensionElements>
       <bpmn2:incoming>_0FEA6B1D-1419-4136-A912-9CADD17651EC</bpmn2:incoming>
       <bpmn2:outgoing>_EDC870DB-EE19-4B84-B5A5-92C429E1A0C9</bpmn2:outgoing>
-      <bpmn2:ioSpecification id="_KoGh8v-GEemhld45uHAjtg">
-        <bpmn2:dataInput id="_42C7C066-55F0-4284-B967-6F51D105A092_EndpointInputX" drools:dtype="String" itemSubjectRef="__42C7C066-55F0-4284-B967-6F51D105A092_EndpointInputXItem" name="Endpoint"/>
+      <bpmn2:ioSpecification id="_au8psv-GEemhld45uHAjtg">
         <bpmn2:dataInput id="_42C7C066-55F0-4284-B967-6F51D105A092_InterfaceInputX" drools:dtype="String" itemSubjectRef="__42C7C066-55F0-4284-B967-6F51D105A092_InterfaceInputXItem" name="Interface"/>
         <bpmn2:dataInput id="_42C7C066-55F0-4284-B967-6F51D105A092_ModeInputX" drools:dtype="String" itemSubjectRef="__42C7C066-55F0-4284-B967-6F51D105A092_ModeInputXItem" name="Mode"/>
         <bpmn2:dataInput id="_42C7C066-55F0-4284-B967-6F51D105A092_NamespaceInputX" drools:dtype="String" itemSubjectRef="__42C7C066-55F0-4284-B967-6F51D105A092_NamespaceInputXItem" name="Namespace"/>
@@ -51,8 +49,7 @@
         <bpmn2:dataInput id="_42C7C066-55F0-4284-B967-6F51D105A092_UrlInputX" drools:dtype="String" itemSubjectRef="__42C7C066-55F0-4284-B967-6F51D105A092_UrlInputXItem" name="Url"/>
         <bpmn2:dataInput id="_42C7C066-55F0-4284-B967-6F51D105A092_TaskNameInputX" drools:dtype="Object" name="TaskName"/>
         <bpmn2:dataOutput id="_42C7C066-55F0-4284-B967-6F51D105A092_ResultOutputX" drools:dtype="String" itemSubjectRef="__42C7C066-55F0-4284-B967-6F51D105A092_ResultOutputXItem" name="Result"/>
-        <bpmn2:inputSet id="_KoGh8_-GEemhld45uHAjtg">
-          <bpmn2:dataInputRefs>_42C7C066-55F0-4284-B967-6F51D105A092_EndpointInputX</bpmn2:dataInputRefs>
+        <bpmn2:inputSet id="_au8ps_-GEemhld45uHAjtg">
           <bpmn2:dataInputRefs>_42C7C066-55F0-4284-B967-6F51D105A092_InterfaceInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_42C7C066-55F0-4284-B967-6F51D105A092_ModeInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_42C7C066-55F0-4284-B967-6F51D105A092_NamespaceInputX</bpmn2:dataInputRefs>
@@ -61,15 +58,50 @@
           <bpmn2:dataInputRefs>_42C7C066-55F0-4284-B967-6F51D105A092_UrlInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_42C7C066-55F0-4284-B967-6F51D105A092_TaskNameInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
-        <bpmn2:outputSet id="_KoGh9P-GEemhld45uHAjtg">
+        <bpmn2:outputSet id="_au8ptP-GEemhld45uHAjtg">
           <bpmn2:dataOutputRefs>_42C7C066-55F0-4284-B967-6F51D105A092_ResultOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
-      <bpmn2:dataInputAssociation id="_KoGh9f-GEemhld45uHAjtg">
+      <bpmn2:dataInputAssociation id="_au8ptf-GEemhld45uHAjtg">
+        <bpmn2:targetRef>_42C7C066-55F0-4284-B967-6F51D105A092_InterfaceInputX</bpmn2:targetRef>
+        <bpmn2:assignment id="_au8ptv-GEemhld45uHAjtg">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_au8pt_-GEemhld45uHAjtg"><![CDATA[PrepareHardwareSpecificationService]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_au8puP-GEemhld45uHAjtg">_42C7C066-55F0-4284-B967-6F51D105A092_InterfaceInputX</bpmn2:to>
+        </bpmn2:assignment>
+      </bpmn2:dataInputAssociation>
+      <bpmn2:dataInputAssociation id="_au8puf-GEemhld45uHAjtg">
+        <bpmn2:targetRef>_42C7C066-55F0-4284-B967-6F51D105A092_ModeInputX</bpmn2:targetRef>
+        <bpmn2:assignment id="_au8puv-GEemhld45uHAjtg">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_au8pu_-GEemhld45uHAjtg"><![CDATA[SYNC]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_au8pvP-GEemhld45uHAjtg">_42C7C066-55F0-4284-B967-6F51D105A092_ModeInputX</bpmn2:to>
+        </bpmn2:assignment>
+      </bpmn2:dataInputAssociation>
+      <bpmn2:dataInputAssociation id="_au8pvf-GEemhld45uHAjtg">
+        <bpmn2:targetRef>_42C7C066-55F0-4284-B967-6F51D105A092_NamespaceInputX</bpmn2:targetRef>
+        <bpmn2:assignment id="_au8pvv-GEemhld45uHAjtg">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_au8pv_-GEemhld45uHAjtg"><![CDATA[urn:blueprism:webservice:preparehardwarespecification]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_au8pwP-GEemhld45uHAjtg">_42C7C066-55F0-4284-B967-6F51D105A092_NamespaceInputX</bpmn2:to>
+        </bpmn2:assignment>
+      </bpmn2:dataInputAssociation>
+      <bpmn2:dataInputAssociation id="_au8pwf-GEemhld45uHAjtg">
+        <bpmn2:targetRef>_42C7C066-55F0-4284-B967-6F51D105A092_OperationInputX</bpmn2:targetRef>
+        <bpmn2:assignment id="_au8pwv-GEemhld45uHAjtg">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_au8pw_-GEemhld45uHAjtg"><![CDATA[PrepareHardwareSpecification]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_au8pxP-GEemhld45uHAjtg">_42C7C066-55F0-4284-B967-6F51D105A092_OperationInputX</bpmn2:to>
+        </bpmn2:assignment>
+      </bpmn2:dataInputAssociation>
+      <bpmn2:dataInputAssociation id="_au8pxf-GEemhld45uHAjtg">
+        <bpmn2:targetRef>_42C7C066-55F0-4284-B967-6F51D105A092_UrlInputX</bpmn2:targetRef>
+        <bpmn2:assignment id="_au8pxv-GEemhld45uHAjtg">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_au8px_-GEemhld45uHAjtg"><![CDATA[http://bpdevelopment:8181/ws/PrepareHardwareSpecification?wsdl]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_au8pyP-GEemhld45uHAjtg">_42C7C066-55F0-4284-B967-6F51D105A092_UrlInputX</bpmn2:to>
+        </bpmn2:assignment>
+      </bpmn2:dataInputAssociation>
+      <bpmn2:dataInputAssociation id="_au8pyf-GEemhld45uHAjtg">
         <bpmn2:targetRef>_42C7C066-55F0-4284-B967-6F51D105A092_TaskNameInputX</bpmn2:targetRef>
-        <bpmn2:assignment id="_KoGh9v-GEemhld45uHAjtg">
-          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_KoGh9_-GEemhld45uHAjtg"><![CDATA[BluePrismWS]]></bpmn2:from>
-          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_KoGh-P-GEemhld45uHAjtg">_42C7C066-55F0-4284-B967-6F51D105A092_TaskNameInputX</bpmn2:to>
+        <bpmn2:assignment id="_au8pyv-GEemhld45uHAjtg">
+          <bpmn2:from xsi:type="bpmn2:tFormalExpression" id="_au8py_-GEemhld45uHAjtg"><![CDATA[BluePrismWS]]></bpmn2:from>
+          <bpmn2:to xsi:type="bpmn2:tFormalExpression" id="_au8pzP-GEemhld45uHAjtg">_42C7C066-55F0-4284-B967-6F51D105A092_TaskNameInputX</bpmn2:to>
         </bpmn2:assignment>
       </bpmn2:dataInputAssociation>
     </bpmn2:task>
@@ -77,8 +109,8 @@
       <bpmn2:incoming>_EDC870DB-EE19-4B84-B5A5-92C429E1A0C9</bpmn2:incoming>
     </bpmn2:endEvent>
   </bpmn2:process>
-  <bpmndi:BPMNDiagram id="_KoGh-f-GEemhld45uHAjtg">
-    <bpmndi:BPMNPlane id="_KoGh-v-GEemhld45uHAjtg" bpmnElement="IT_Orders.include-hardware-specification">
+  <bpmndi:BPMNDiagram id="_au8pzf-GEemhld45uHAjtg">
+    <bpmndi:BPMNPlane id="_au8pzv-GEemhld45uHAjtg" bpmnElement="IT_Orders.include-hardware-specification">
       <bpmndi:BPMNShape id="shape__A3CC01DF-D5A1-4D3C-B1F8-849251786CCF" bpmnElement="_A3CC01DF-D5A1-4D3C-B1F8-849251786CCF">
         <dc:Bounds height="56.0" width="56.0" x="547.0" y="170.0"/>
       </bpmndi:BPMNShape>
@@ -98,12 +130,12 @@
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
-  <bpmn2:relationship id="_KoGh-_-GEemhld45uHAjtg" type="BPSimData">
+  <bpmn2:relationship id="_au8pz_-GEemhld45uHAjtg" type="BPSimData">
     <bpmn2:extensionElements>
       <bpsim:BPSimData>
         <bpsim:Scenario xsi:type="bpsim:Scenario" id="default" name="Simulationscenario">
           <bpsim:ScenarioParameters xsi:type="bpsim:ScenarioParameters"/>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_42C7C066-55F0-4284-B967-6F51D105A092" id="_KoGh_P-GEemhld45uHAjtg">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_42C7C066-55F0-4284-B967-6F51D105A092" id="_au8p0P-GEemhld45uHAjtg">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -123,7 +155,7 @@
               </bpsim:UnitCost>
             </bpsim:CostParameters>
           </bpsim:ElementParameters>
-          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_AB8D2284-AC50-46DD-AF06-FA0CDFC434CB" id="_KoGh_f-GEemhld45uHAjtg">
+          <bpsim:ElementParameters xsi:type="bpsim:ElementParameters" elementRef="_AB8D2284-AC50-46DD-AF06-FA0CDFC434CB" id="_au8p0f-GEemhld45uHAjtg">
             <bpsim:TimeParameters xsi:type="bpsim:TimeParameters">
               <bpsim:ProcessingTime xsi:type="bpsim:Parameter">
                 <bpsim:NormalDistribution mean="0.0" standardDeviation="0.0"/>
@@ -133,7 +165,7 @@
         </bpsim:Scenario>
       </bpsim:BPSimData>
     </bpmn2:extensionElements>
-    <bpmn2:source>_KoGh8P-GEemhld45uHAjtg</bpmn2:source>
-    <bpmn2:target>_KoGh8P-GEemhld45uHAjtg</bpmn2:target>
+    <bpmn2:source>_au8psP-GEemhld45uHAjtg</bpmn2:source>
+    <bpmn2:target>_au8psP-GEemhld45uHAjtg</bpmn2:target>
   </bpmn2:relationship>
 </bpmn2:definitions>
